@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <fstream>//dosya kayıt kütühanesi
+#include <fstream>
 #include <string>
 #include <limits>
 #include <thread>   
@@ -135,7 +135,6 @@ void Yetkiliislem::musteriGuncelle()
     file.write((char *)&m1,sizeof(MusteriBilgi));
     file.close();
     cout<<"Musteri bilgileri guncellendi!!!"<<endl;
-    //cin.get();
 
     }
     file.close();
@@ -144,7 +143,7 @@ void Yetkiliislem::musteriGuncelle()
 
 int Yetkiliislem::YetkiliMenu()
 {
-    system("cls");//ekranı temizler. proje sonu sil dene
+    system("cls");
     int secim;
     cout<<"..Sayin Admin Hosgeldiniz.."<<endl;
     cout<<"1-)Musteri Ekle"<<endl;
