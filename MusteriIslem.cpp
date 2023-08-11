@@ -39,7 +39,7 @@ int MusteriIslem:: musteriMenu(){
 void MusteriIslem::musteriGiris(MusteriBilgi mPtr)
 {
     m1=mPtr;
-    //string dosyaAdi = m1.getTcno() + ".txt";
+
     int secim=musteriMenu();
     while(secim!=0)
     {
