@@ -77,9 +77,3 @@ MusteriBilgi::MusteriBilgi(const char *tc,const char *adsyd,const char *adr,cons
     float MusteriBilgi::getBakiye (){
         return bakiye;
     }
-/*
-    void DosyaAdi(char *dosya){
-        string dosyaAdi=dosya;
-        dosyaAdi.append(".txt");
-    }proje sonunda tüm bu satır olanları buraya bağla!!!
-    */
